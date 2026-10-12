@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.git
+.gitignore
+.github
+.cursor
+.env
+.env.*
+*.log
+.DS_Store
+PLANO_MVP*.md
+*.pdf
+*.xlsx

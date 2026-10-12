@@ -1,0 +1,32 @@
+# Dependencies / build output
+node_modules/
+dist/
+coverage/
+
+# Env (keep the example)
+.env
+.env.*
+!.env.example
+
+# Private docs / reference material (NOT for the public repo)
+PLANO_MVP*.md
+*.pdf
+*.xlsx
+
+# Python tooling cache (scripts/extract_curves.py)
+__pycache__/
+*.pyc
+.venv/
+
+# Logs / temp
+*.log
+*.tmp
+
+# Vite cache
+.vite/
+
+# Editor / OS
+.cursor/
+.vscode/
+.idea/
+.DS_Store

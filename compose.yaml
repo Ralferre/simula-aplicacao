@@ -1,0 +1,9 @@
+services:
+  rsoft-dosagem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # nginx-unprivileged serves the static dist on 8080. Map to host 8080.
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
